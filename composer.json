@@ -1,0 +1,25 @@
+{
+  "name": "zikwall/core",
+  "description": "enCore base core module",
+  "keywords": ["framework", "yii2", "core", "module", "zikwall"],
+  "type": "encore-core-module",
+  "support": {
+    "issues": "https://github.com/zikwall/core/issues?state=open",
+    "source": "https://github.com/zikwall/core"
+  },
+  "authors": [
+    {
+      "name": "Andrey Kapitonov",
+      "email": "andrey.kapitonov.96@gmall.com"
+    }
+  ],
+  "require": {
+    "zikwall/encore-installer": "~0.0.1",
+    "zikwall/en-core": "~0.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "zikwall\\encore\\modules\\core\\": ""
+    }
+  }
+}
